@@ -37,4 +37,5 @@ Note: **Make sure to install the Python3 modules before running the script.**
 Note: **The script will try to create a tmp directory if it's not present.**
 
 
-This tutorial is for one clip only. In the next posts, i will present a full automated solution for the top watched clips.
+This tutorial is for one clip only. In the next posts, i will present a full automated solution for the top watched clips.  
+Cheers!!
