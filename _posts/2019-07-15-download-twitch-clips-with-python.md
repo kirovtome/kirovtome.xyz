@@ -30,7 +30,7 @@ There are a lot of tutorials on how to install Python3, so i'll just skip this s
 4. Copy the Twitch clip URL.  
 5. Execute the script by running the following command
 ```console
-python3 dltwitchclips.py <paste_clip_url_here>
+python3 dltwitchclips.py --clip <paste_clip_url_here>
 ```
 6. The clip should we downloaded in the tmp/ relative directory to the script.  
 Note: **The script will try to create a tmp directory if it's not present.**
