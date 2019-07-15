@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Download Twitch clips with Python
-date: 2019-07-15
+date: 2019-07-15 +1500
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: twitch_logo.jpg # Add image post (optional)
 tags: [Python, Python3, Twitch] # add tag
