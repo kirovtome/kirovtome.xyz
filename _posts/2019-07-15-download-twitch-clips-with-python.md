@@ -19,8 +19,8 @@ There are a lot of tutorials on how to install Python3, so i'll just skip this s
 2. Go to the [Twitch dev site](https://dev.twitch.tv) and log into your account.
 3. Go to your **Dashboard**.
 4. On the **Console**, under **Applications**, choose **Register Your Application**.
-5. On the **Register Your Application** page, complete the form and choose **Register**.
-![][screenshot1.png](../assets/img/screenshot1.png)
+5. On the **Register Your Application** page, complete the form and choose **Register**.  
+![](../assets/img/screenshot1.png)
 6. Note the Client ID that you will use to configure the script.
 
 ### Configure the script
