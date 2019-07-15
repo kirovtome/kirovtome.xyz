@@ -26,7 +26,7 @@ There are a lot of tutorials on how to install Python3, so i'll just skip this s
 ### Configure the script
 1. Download or clone the repository from [here](https://github.com/kirovtome/python-twitch-clips).  
 2. Extract the repository.  
-3. Insert the Twitch Client ID into the script by changing the variable 'var_client_id' value.  
+3. Insert the Twitch Client ID into the script by changing the variable 'client_id' value.  
 4. Copy the Twitch clip URL.  
 5. Execute the script by running the following command
 ```console
