@@ -31,7 +31,8 @@ There are a lot of tutorials on how to install Python3, so i'll just skip this s
 5. Execute the script by running the following command
 ```console
 python3 dltwitchclips.py --clip <paste_clip_url_here>
-```
+```  
+Note: **Make sure to install the Python3 modules before running the script.**  
 6. The clip should we downloaded in the tmp/ relative directory to the script.  
 Note: **The script will try to create a tmp directory if it's not present.**
 
