@@ -10,7 +10,7 @@ tags: [Python, Python3, Twitch] # add tag
 As a casual Dota2 twitch viewer, i always wanted to save and/or upload some twitch highlight clips to YouTube.
 So, i decided to create a basic Python script that will download the Twitch clips locally.
 
-In order to do so, we'll have to install python3 and create a twitch user Client-ID.
+In order to do so, we'll have to install **python3** and create a twitch user Client-ID.
 There are a lot of tutorials on how to install Python3, so i'll just skip this step.
 
 ### Create Twitch user Client-ID
