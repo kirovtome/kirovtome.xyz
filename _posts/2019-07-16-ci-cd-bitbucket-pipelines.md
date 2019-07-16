@@ -16,7 +16,7 @@ Amazon Edge locations with low latency, high speed, etc,...
 
 *"But Tome, we got S3 buckets for uploading videos, images, serving static sites?!"*
 
-Yeah sure, but you can't configure TLS sertificates if you want to serve static site in S3 yet, and you don't wanna public access to the bucket either because of the new Magecart malware :)
+Yeah sure, but you can't configure TLS certificates if you want to serve static site in S3 yet, and you don't wanna public access to the bucket either because of the new Magecart malware :)
 
 There is no 'but', configure CDN it's a one minute configuraiton.  
 More about [AWS Cloudfront](https://aws.amazon.com/cloudfront/).
@@ -52,7 +52,7 @@ Note: **use Bitbucket environment variables located in Settings -> Repository va
 
 ### Improvements
 
-1. Generalise each step using the **&** sign, so we could reuse the steps, create Bitbucket environments and deploy different branches on different environments.  
+1. Generalize each step using the **&** sign, so we could reuse the steps, create Bitbucket environments and deploy different branches on different environments.  
 For example deploy:  
 * develop branch -> dev environment
 * master branch -> master environment  
