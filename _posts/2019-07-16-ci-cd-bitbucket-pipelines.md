@@ -3,7 +3,7 @@ layout: post
 title: AWS Cloudfront automated deployment using Bitbucket Pipelines
 date: 2019-07-16
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: twitch_logo.jpg # Add image post (optional)
+img: bitbucket_logo.jpeg # Add image post (optional)
 tags: [CI, CD, Bitbucket, Pipelines, Docker, AWS, Cloudfront, S3] # add tag
 ---
 
