@@ -47,7 +47,7 @@ Note: **use Bitbucket environment variables located in Settings -> Repository va
 
 3. Create Cloudfront invalidaiton using docker image: centos:7 and install on the awscli on the fly. Although this could be any docker image, the best way to deploy a cloudfront invalidation is to have your own docker image, and use that image. Also, it could be nice if you don't mind extra 30 seconds of the deployment time.
 
-<script src="https://gist.github.com/kirovtome/fe7c323cde852117c4698effe3eade49.js"></script>
+{% gist fe7c323cde852117c4698effe3eade49 %}
 
 
 ### Improvements
