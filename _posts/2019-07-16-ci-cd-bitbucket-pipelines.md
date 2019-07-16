@@ -14,7 +14,7 @@ Today I'm going to talk about automating the AWS Cloudfront deployment using Bit
 AWS Cloudfront is a Content delivery network (CDN) service that delivers content like videos, images, applications to
 Amazon Edge locations with low latency, high speed, etc,...  
 
-But Tome, we got S3 buckets for uploading videos, images, serving static sites?!
+*"But Tome, we got S3 buckets for uploading videos, images, serving static sites?!"*
 
 Yeah sure, but you can't configure TLS sertificates if you want to serve static site in S3 yet, and you don't wanna public access to the bucket either because of the new Magecart malware :)
 
