@@ -16,7 +16,8 @@ social-linkedin: tomekirov
 social-email: tomekirov@outlook.com
 
 # Disqus
-discus-identifier: tome-kirov # add your discus identifier
+discus-identifier: kirovtome-blog # add your discus identifier
+comments: true
 
 # Tracker
 analytics: UA-143963612-1 # Google Analytics
