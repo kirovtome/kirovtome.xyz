@@ -62,9 +62,11 @@ vim docker-compose.yml
 
 As you can see, there are 2 services: *db* and *web* defined with images: *mariadb:10.2.8* and the Docker image we've just created: *php7.1-apache-pdo-mysql:1.0*.  
 Next, we are using the environment file *.env* so, we could handle sensitive information, like mysql_root password, and it's also easier to name our database name as well :)  
+
 This environment file looks like this:  
 
-<script src="http://gist-it.appspot.com/https://github.com/kirovtome/docker-lamp-stack/blob/master/.env.example"></script>  
+MYSQL_ROOT_PASSWORD=
+MYSQL_DATABASE=happs
 
 Rename the file to .env, enter your local root password for the mariadb instance and database name, and you are good to go.
 
@@ -74,6 +76,7 @@ Back to the *docker-compose.yml* file. We are mapping ports:
 
 For the db container, we are also mounting a docker volume, so we could have a persistent state of the database.
 And regarding the web container, we are binding a local directory *./php* where we are developing our php app.  
+
 *But Tome, what's the difference between binding and using docker volumes?*  
 
  Docker volumes are preffered way to store a persistent data, and are fully managed by Docker, where bind mounts can be file or folder stored on the container host and processes outside of Docker can modify it, like for example if we are developing application, it will be frustrating to rebuild the images on every application change.  
