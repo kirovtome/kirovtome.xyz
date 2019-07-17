@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LAMP stack with Docker Compose
-date: 2019-07-16
+date: 2019-07-17
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: docker-compose_logo.png # Add image post (optional)
 tags: [LAMP, Docker, Docker Compose, CentOS, PHP, Apache, MariaDB] # add tag
