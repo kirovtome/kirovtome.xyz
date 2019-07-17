@@ -65,7 +65,7 @@ Next, we are using the environment file *.env* so, we could handle sensitive inf
 
 This environment file looks like this:  
 
-<script src="https://gist-it.appspot.com/github/kirovtome/docker-lamp-stack/blob/master/.env.example></script>
+<script src="https://gist-it.appspot.com/github/kirovtome/docker-lamp-stack/blob/master/.env.example"></script>
 
 Rename the file to .env, enter your local root password for the mariadb instance and database name, and you are good to go.
 
