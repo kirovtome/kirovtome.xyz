@@ -58,7 +58,7 @@ touch docker-compose.yml
 vim docker-compose.yml
 ```  
 
-<script src="http://gist-it.appspot.com/https://github.com/kirovtome/docker-lamp-stack/raw/master/docker-compose.yml"></script>
+<script src="https://www.onlinetool.io/gitoembed/widget?url=https%3A%2F%2Fgithub.com%2Fkirovtome%2Fdocker-lamp-stack%2Fblob%2Fmaster%2FDockerfile"></script>
 
 As you can see, there are 2 services: *db* and *web* defined with images: *mariadb:10.2.8* and the Docker image we've just created: *php7.1-apache-pdo-mysql:1.0*.  
 Next, we are using the environment file *.env* so, we could handle sensitive information, like mysql_root password, and it's also easier to name our database name as well :)  
