@@ -43,7 +43,7 @@ Note:** It's not a good practise using the latest tag for public Docker images, 
 
 3. The pdo_mysql extension is not installed as default in the php7.1-apache image, so we'll create a Dockerfile that will use this image and add the missing extension.
 
-<script src="http://gist-it.appspot.com/https://github.com/kirovtome/docker-lamp-stack/blob/master/Dockerfile"></script>
+<script src="https://gist-it.appspot.com/github/kirovtome/docker-lamp-stack/blob/master/Dockerfile"></script>
 
 4. Now, we are going to build this Dockerfile.  
 ```console  
@@ -58,13 +58,14 @@ touch docker-compose.yml
 vim docker-compose.yml
 ```  
 
-<script src="https://gist-it.appspot.com/github/kirovtome/docker-lamp-stack/blob/master/Dockerfile"></script>
+<script src="https://gist-it.appspot.com/github/kirovtome/docker-lamp-stack/blob/master/docker-compose.yml"></script>
 
 As you can see, there are 2 services: *db* and *web* defined with images: *mariadb:10.2.8* and the Docker image we've just created: *php7.1-apache-pdo-mysql:1.0*.  
 Next, we are using the environment file *.env* so, we could handle sensitive information, like mysql_root password, and it's also easier to name our database name as well :)  
 
 This environment file looks like this:  
 
+<script src="https://gist-it.appspot.com/github/kirovtome/docker-lamp-stack/blob/master/.env.example></script>
 
 Rename the file to .env, enter your local root password for the mariadb instance and database name, and you are good to go.
 
