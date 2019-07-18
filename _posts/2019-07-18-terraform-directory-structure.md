@@ -91,6 +91,19 @@ More about [Workspaces](https://www.terraform.io/docs/state/workspaces.html).
 
 There is also a *provider.tf* file which contains the provider confgiuration, who basically provides **Infrastructure as a Service** (IaaS) like AWS, Microsft Azure, Google Cloud Platform, OpenStack), **Platform as a Service** (PaaS) like Heroku, or **Software as a Service** (SaaS) like Cloudflare.
 
+4. terraform.tfstate file  
+
+Terraform store the state of your infrastructure and configuration initially in a local file terraform.tfstate. My 2 cents on this is to always store the state on remote site whenever you are working in a team or not. S3 bucket remote state example:  
+```console  
+terraform {
+  backend "s3"{
+    bucket="terraform-state-dev"
+    key="terraform.tfstate"
+    region="eu-west-1"
+  }
+}
+```
+
 ### Summary  
 
 Having a good structured directory infrastructure can help you scale well on a long run.
