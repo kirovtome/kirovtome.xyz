@@ -8,7 +8,7 @@ tags: [DevOps, Engineer, Ifrastructure, Code] # add tag
 ---
 
 
-It's always hard to explain to others when they ask questions like:
+It's always hard to explain to others when they ask questions like:  
 Others: *What are you doing for living?*  
 Me: I'm working in IT  
 Others: *Are you a programmer?*  
