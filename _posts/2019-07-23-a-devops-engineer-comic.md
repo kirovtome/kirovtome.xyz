@@ -7,15 +7,14 @@ img: devops-engineer-joke.jpg # Add image post (optional)
 tags: [DevOps, Engineer, Ifrastructure, Code] # add tag
 ---
 
-![Credits: https://devops.com/author/breselman/](/assets/img/devops-engineer-joke.jpg)
 
 It's always hard to explain to others when they ask questions like:
-Others: *What are you do for living?*  
+Others: *What are you doing for living?*  
 Me: I'm working in IT  
 Others: *Are you a programmer?*  
 Me: No, i'm DevOps.   
 Others: *What is DevOps*?  
-Me: ...i'm helping developers to setup their environment and production environment as well.  
+Me: ...i'm helping developers to setup their environment and production environment as well with automation tools.  
 Others: *?! ok...*  
 
 
