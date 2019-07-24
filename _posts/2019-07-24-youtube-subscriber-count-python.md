@@ -3,7 +3,7 @@ layout: post
 title: YouTube subscriber count with Python
 date: 2019-07-24
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: youtube-subs.jpg # Add image post (optional)
+img: youtube-subs.png # Add image post (optional)
 tags: [python, python3, youtube, subscribers, subs] # add tag
 ---
 
@@ -43,13 +43,14 @@ Official documentation: https://developers.google.com/youtube/v3/getting-started
 python3 get-subs-number.py --user pewdiepie  
 ```  
 Result:  
-
-![](/assets/img/screenshots/screenshot2.png)
+```console  
+pewdiepie has 98062980 subscribers!!
+```   
 
 
 ### Improvements
 
-Create a live counter.  
-For example: Schedule API requests every 60 seconds and display it with fancy numbers. I'll do this scenario in the near future with a serverless AWS Lambda function.  
+Create a live YouTube subs counter.  
+For example: Schedule API requests every 60 seconds and display it with fancy numbers. I'll do this scenario in a near future with a serverless AWS Lambda function.  
 
 Cheers!!
