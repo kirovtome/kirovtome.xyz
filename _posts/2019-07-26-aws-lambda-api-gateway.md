@@ -48,7 +48,7 @@ Official AWS Lambda documentation: https://aws.amazon.com/lambda/
 <br />
 ![](/assets/img/screenshots/screenshot6.png)  
 4. Click **Create**.  
-5. Now, edit the Lambda function to say for example: 'Cheers from Lambda Tome!'  
+5. Now, edit the Lambda function to say for example:  
 ```console  
 import json
 
