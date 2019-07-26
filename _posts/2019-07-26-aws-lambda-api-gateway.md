@@ -49,18 +49,8 @@ Official AWS Lambda documentation: https://aws.amazon.com/lambda/
 ![](/assets/img/screenshots/screenshot6.png)  
 4. Click **Create**.  
 5. Now, edit the Lambda function to say for example:  
-```console  
-import json
-
-def lambda_handler(event, context):
-    # TODO implement
-    varName = event['name']
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Cheers from Lambda ' + varName + "!")
-    }  
-
-```  
+<br />
+![](/assets/img/screenshots/screenshot15.png)  
 6. Click **Save** and then click **Test**.  
 7. The *Execution Result* should look like this:  
 <br />
