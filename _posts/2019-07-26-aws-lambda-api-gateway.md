@@ -58,7 +58,8 @@ def lambda_handler(event, context):
     return {
         'statusCode': 200,
         'body': json.dumps('Cheers from Lambda ' + varName + "!")
-    }
+    }  
+
 ```  
 6. Click **Save** and then click **Test**.  
 7. The *Execution Result* should look like this:  
