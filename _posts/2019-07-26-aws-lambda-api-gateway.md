@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cheers from AWS Lambda Proxy Integration
+title: Hello World with AWS Lambda Proxy Integration
 date: 2019-07-26
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: lambda-api-gateway.png # Add image post (optional)
