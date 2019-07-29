@@ -13,7 +13,7 @@ Today, i'm going to create a simple Hello World with AWS Lambda and API Gateway 
 3. Create and configure API Gateway Proxy Integration  
 4. Execute a GET request and see what happens  
 
-#### Preeequirements
+#### Prerequirements
 
 * AWS Account
 * curl / Postman app
