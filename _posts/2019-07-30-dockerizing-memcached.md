@@ -93,4 +93,4 @@ docker rm memcached
 ```  
 
 So, why Memcached?  
-Memcached could be used in scenarios where we want to cache small and static data, like handling a high traffic website. It is multithreaded, can be scaled up by givint it more computational resources and can handle a lot of read operations as well.
+Memcached could be used in scenarios where we want to cache small and static data, like handling a high traffic website. It is multithreaded, can be scaled up by giving it more computational resources and can handle a lot of read operations as well.
