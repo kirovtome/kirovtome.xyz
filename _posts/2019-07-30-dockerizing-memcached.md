@@ -14,7 +14,7 @@ Recently i saw a post about dockerizing Redis, so i've decided to do a basic tut
 
 Memcached is an in-memory key-value store. It is used for caching small chunks of data like strings, objects, usually a results from database calls, API calls, etc.  Memcached belongs to the NoSQL family of data management solutions.  
 
-More about [Memcached] (https://memcached.org).  
+More about [Memcached](https://memcached.org).  
 
 #### Prerequirements
 
