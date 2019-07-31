@@ -15,6 +15,9 @@ With today's IT modern cloud technologies, you have to choose between fast start
 4. Configure and start a microVM  
 5. Access the microVM  
 
+**We will start, configure and manage everything with API calls. How cool that is!**  
+
+
 ### 1. What is Firecracker
 
 Firecracker is an open source virtualization technology which enables you to deploy lightweight virtual machines with small footprints, called microVMs, or in other words, it takes the best from the both words. It provides security and isolation over traditional VMs with speed and flexibility of containers.  
