@@ -134,7 +134,7 @@ ps aux | grep firecracker
 root      2825  0.6  2.5 145900 39424 pts/0    Sl+  12:27   0:02 ./firecracker --api-sock /tmp/firecracker.sock
 ```  
 
-8. The microVM is running as a KVM instance that is also listed as a process:  
+The microVM is running as a KVM instance that is also listed as a process:  
 ```console  
 $ ps aux | grep firecracker  
 root      2825  0.6  2.5 145900 39424 pts/0    Sl+  12:27   0:02 ./firecracker --api-sock /tmp/firecracker.sock  
