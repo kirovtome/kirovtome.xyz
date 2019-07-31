@@ -122,7 +122,7 @@ curl --unix-socket /tmp/firecracker.sock -i \
 ps aux | grep firecracker  
 ```  
 
-Result:  
+  Result:  
 ```console  
 root      2825  0.6  2.5 145900 39424 pts/0    Sl+  12:27   0:02 ./firecracker --api-sock /tmp/firecracker.sock
 ```  
@@ -133,7 +133,7 @@ $ ps aux | grep firecracker
 root      2825  0.6  2.5 145900 39424 pts/0    Sl+  12:27   0:02 ./firecracker --api-sock /tmp/firecracker.sock  
 ```  
 
-Result:  
+  Result:  
 ```console  
 $ ps aux | grep kvm  
 root      2896  0.0  0.0      0     0 ?        S    12:28   0:00 [kvm-pit/2825]  
@@ -173,4 +173,4 @@ This tutorial is based on an awesome made getting started tutorial by [katacoda]
 
 Link to the tutorial [here](https://www.katacoda.com/firecracker-microvm/scenarios/getting-started).  
 
-Official Getting Started with Firecracker: https://github.com/firecracker-microvm/firecracker/blob/master/docs/getting-started.md 
+Official Getting Started with Firecracker [here](https://github.com/firecracker-microvm/firecracker/blob/master/docs/getting-started.md)  
