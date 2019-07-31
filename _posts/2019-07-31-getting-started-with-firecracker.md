@@ -37,10 +37,12 @@ More about [Firecracker](https://firecracker-microvm.github.io).
 ```console  
 curl -L -o https://github.com/firecracker-microvm/firecracker/releases/download/v0.17.0/firecracker-v0.17.0  
 ```  
+  
 2. Set Firecracker binary executable:  
 ```console
 chmod +x firecracker  
 ```  
+  
 3. Ensure that Firecracker can run by checking the version number:  
 ```console  
 ./firecracker -V  
