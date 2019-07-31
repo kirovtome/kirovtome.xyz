@@ -26,7 +26,9 @@ Firecracker diagram:
 More about [Firecracker](https://firecracker-microvm.github.io).  
 
 
-### 2. Download Firecracker
+### 2. Download Firecracker  
+
+**Prerequisites**: https://github.com/firecracker-microvm/firecracker/blob/master/docs/getting-started.md#prerequisites  
 
 1. Download Firecracker:  
 ```console  
