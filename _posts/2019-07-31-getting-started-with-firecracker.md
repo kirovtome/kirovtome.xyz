@@ -37,12 +37,12 @@ More about [Firecracker](https://firecracker-microvm.github.io).
 ```console  
 curl -L -o https://github.com/firecracker-microvm/firecracker/releases/download/v0.17.0/firecracker-v0.17.0  
 ```  
-<br />
+  
 2. Set Firecracker binary executable:  
 ```console
 chmod +x firecracker  
 ```  
-<br />
+  
 3. Ensure that Firecracker can run by checking the version number:  
 ```console  
 ./firecracker -V  
@@ -56,7 +56,7 @@ chmod +x firecracker
 curl -L -o hello-vmlinux.bin https://s3.amazonaws.com/spec.ccfc.min/img/hello/kernel/hello-vmlinux.bin  
 curl -L -o hello-rootfs.ext4 https://s3.amazonaws.com/spec.ccfc.min/img/hello/fsfiles/hello-rootfs.ext4
 ```  
-<br />
+  
 2. Start the Firecracker:  
 ```console  
 ./firecracker --api-sock /tmp/firecracker.sock  
@@ -76,7 +76,7 @@ curl --unix-socket /tmp/firecracker.sock -i \
     "kernel_image_path": "./hello-vmlinux.bin"    
 }'  
 ```  
-<br />
+  
 3. Set the guest rootfs:  
 ```console  
 curl --unix-socket /tmp/firecracker.sock -i \  
@@ -90,7 +90,7 @@ curl --unix-socket /tmp/firecracker.sock -i \
     "is_read_only": false  
 }'  
 ```  
-<br />
+  
 4. Configure Logging:  
 ```console  
 curl --unix-socket /tmp/firecracker.sock -i \  
@@ -105,7 +105,7 @@ curl --unix-socket /tmp/firecracker.sock -i \
     "show_log_origin": false    
 }'  
 ```  
-<br />
+  
 5. Customize the microVM by configuring CPU and Memory allocated:  
 ```console  
 curl --unix-socket /tmp/firecracker.sock -i \  
@@ -117,7 +117,7 @@ curl --unix-socket /tmp/firecracker.sock -i \
     "mem_size_mib": 254   
 }'  
 ```  
-<br />
+  
 6. Start the microVM:  
 ```console  
 curl --unix-socket /tmp/firecracker.sock -i \  
@@ -128,7 +128,7 @@ curl --unix-socket /tmp/firecracker.sock -i \
     "action_type": "InstanceStart"     
 }'  
 ```  
-<br />
+  
 7. We can check the Firecracker parent process ID that will manage the instance by running:  
 ```console  
 ps aux | grep firecracker  
@@ -175,8 +175,8 @@ curl --unix-socket /tmp/firecracker.sock -i \
 -d '{  
     "action_type": "InstanceHalt"     
 }' 
-```
-<br />  
+```  
+
 Shutdown Firecracker:  
 ```console  
 ps aux | grep -ie firecracker | aws '{print $2}' | xargs kill -9  
