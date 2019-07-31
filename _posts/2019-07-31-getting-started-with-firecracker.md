@@ -163,10 +163,8 @@ df -h
 free -mh  
 uname -a  
 ```  
-
-The default microVM have 1vCPU and 128MiB RAM. This can be customized.  
-
-From the **second terminal** shutdown the instance with the action *InstanceHalt*:  
+  
+4. From the **second terminal** shutdown the instance with the action *InstanceHalt*:  
 ```console  
 curl --unix-socket /tmp/firecracker.sock -i \  
 -X PUT 'http://localhost/action' \  
@@ -176,8 +174,8 @@ curl --unix-socket /tmp/firecracker.sock -i \
     "action_type": "InstanceHalt"     
 }' 
 ```  
-
-Shutdown Firecracker:  
+  
+5. Shutdown Firecracker:  
 ```console  
 ps aux | grep -ie firecracker | aws '{print $2}' | xargs kill -9  
 ```  
