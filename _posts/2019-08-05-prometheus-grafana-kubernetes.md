@@ -62,7 +62,7 @@ helm install stable/prometheus --name prometheus --namespace prometheus
 kubectl get all -n prometheus
 ```  
 4. Result should look like:  
-![Prometheus deployment](/assets/img/screenshot23.png)  
+![Prometheus deployment](/assets/img/screenshots/screenshot23.png)  
 5. Now, we want to access the Prometheus via browser, so we are going to use the *port-forward* command:  
 ```console  
 kubectl port-forward -n prometheus deploy/prometheus-server 8080:9090
@@ -72,7 +72,7 @@ kubectl port-forward -n prometheus deploy/prometheus-server 8080:9090
 localhost:8080/targets  
 ```  
 7. Result should look like this:  
-![Prometheus targets](/assets/img/screenshot24.png)  
+![Prometheus targets](/assets/img/screenshots/screenshot24.png)  
 
 
 ### 6. Configure Grafana  
@@ -90,7 +90,7 @@ helm install stable/grafana --name grafana --namespace grafana
 kubectl get all -n grafana
 ```  
 4. Result should look like:  
-![Grafana deployment](/assets/img/screenshot25.png)  
+![Grafana deployment](/assets/img/screenshots/screenshot25.png)  
 5. Now, we want to access the Grafana via browser, so we are going to use the *port-forward* command:  
 ```console  
 kubectl port-forward -n grafana deploy/grafana 3000
@@ -100,13 +100,13 @@ kubectl port-forward -n grafana deploy/grafana 3000
 localhost:3000   
 ```  
 7. Result should look like this:  
-![Grafana login](/assets/img/screenshot26.png)  
+![Grafana login](/assets/img/screenshots/screenshot26.png)  
 8. Login with username admin and password generated as output from the following command:  
 ```console  
 kubectl get secret --namespace grafana grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo  
 ```  
 9. The Grafana login dashboard:  
-![Grafana dashboard](/assets/img/screenshot27.png)  
+![Grafana dashboard](/assets/img/screenshots/screenshot27.png)  
 
 
 There is a cool workshop by AWS about building Kubernetes projects on their Kubernetes service [EKS](https://aws.amazon.com/eks/) on the following link: https://eksworkshop.com  
