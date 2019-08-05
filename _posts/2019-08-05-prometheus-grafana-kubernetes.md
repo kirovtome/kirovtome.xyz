@@ -109,4 +109,6 @@ kubectl get secret --namespace grafana grafana -o jsonpath="{.data.admin-passwor
 ![Grafana dashboard](/assets/img/screenshot27.png)  
 
 
-My 2 cents on this is to build slowly and then start to scale up.
+There is a cool workshop by AWS about building Kubernetes projects on their Kubernetes service [EKS](https://aws.amazon.com/eks/) on the following link: https://eksworkshop.com  
+
+My 2 cents on this is to build slowly and then start to scale up.  
