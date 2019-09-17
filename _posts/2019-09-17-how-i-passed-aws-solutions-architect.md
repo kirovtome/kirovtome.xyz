@@ -26,7 +26,7 @@ There are currently eleven certificates available, which are grouped by the foll
 * Associate - at least 1 year of AWS cloud experience building and troubleshooting infrastructure.    
 * Professional - at least 2 years of AWS cloud experience designing, operating and troubleshooting solutions.  
 
-![AWS Certifications](/assets/img/screenshot28.png)  
+![AWS Certifications](/assets/img/screenshots/screenshot28.png)  
 
 
 ### 3. My approach and what's next
@@ -54,7 +54,7 @@ It was so pleasant feeling after passing the exam, scoring 920/1000.
 
 So, what's next?!  
  
-I am thinking about passing the AWS Certified Solutions Architect - Professional exam, which i'll need like 2 months for preparation, and most importantly, maybe one or two more years of experience.  
+I was thinking about passing the AWS Certified Solutions Architect - Professional exam, which i'll need like 2 months for preparation, and most importantly, maybe one or two more years of experience.  
 
 
 My 2 cents on this is not to feel discouraged, but instead to feel more motivated to pass the exam.
