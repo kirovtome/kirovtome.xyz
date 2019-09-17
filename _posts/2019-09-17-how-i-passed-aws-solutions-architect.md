@@ -7,7 +7,7 @@ img: aws-certified-solutions-architect-associate.jpg # Add image post (optional)
 tags: [AWS, Certified, Solutions, Architect, Associate, exam] # add tag
 ---
 
-In this post, i will talk about how i passed AWS Certified Solutions Architect - Associate, on the second try.
+It's been a while since my last post, because i was preparing to pass the AWS Certified Solutions Architect - Associate exam, so i will write about it now.
 
 
 ### 1. Why AWS Certification
